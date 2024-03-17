@@ -1,0 +1,110 @@
+.OuterContainer {
+  background-image: url("careers_HD.jpeg");
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 20%;
+  min-height: 85vh;
+  background-size: cover; 
+  margin-bottom: 100px;
+}
+
+.joinus {
+  margin-left: -100px;
+}
+
+.home h3 {
+  font-size: 6rem;
+  color: #333;
+}
+
+.home span {
+  font-size: 3.5rem;
+  color: var(--pink);
+  line-height: 1.5;
+}
+
+.btn {
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: var(--green);
+  color: #fff;
+  padding: 2rem 7rem;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.btn:hover {
+  background: #3f9549;
+}
+
+@media screen and (max-width: 435px) {
+  .home {
+    display: flex;
+    align-items: left;
+
+    margin-left: 8%;
+    min-height: 85vh;
+    background: var(--white);
+    background-size: cover;
+
+    margin-bottom: 140px;
+  }
+  .btn {
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--green);
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 317px) {
+  .home {
+    display: flex;
+    align-items: left;
+    width: 100%;
+    margin-left: 5%;
+    min-height: 85vh;
+    background: var(--white);
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 140px;
+  }
+  .btn {
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--green);
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .home {
+    display: flex;
+    align-items: left;
+    margin-left: 8%;
+    min-height: 85vh;
+    background: var(--white);
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 140px;
+  }
+  .btn {
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: var(--green);
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}

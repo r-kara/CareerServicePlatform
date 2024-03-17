@@ -1,0 +1,172 @@
+.ScrollBarConainer {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+
+  column-gap: 1px;
+  min-height: 100vh;
+  /* background-color: black; */
+}
+
+.ScrollBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  margin: 1%;
+  border-radius: 15px;
+  border-color: seagreen;
+  border-style: solid;
+  overflow: scroll;
+  justify-content: space-between;
+}
+
+.itemInScrollBarInfo {
+  padding-left: 8px;
+  padding-top: 8px;
+  overflow: scroll;
+  font-size: 15px;
+  color: black;
+  
+}
+
+.on_hover:hover {
+  background-color: #bbd4b2;
+}
+
+.itemInScrollBar {
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: 2%; */
+  width: 93%;
+  padding: 3%;
+  border-color: seagreen;
+  border-style: solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* background-color: aquamarine; */
+}
+
+.itemScrollBarContainer {
+ 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: brown; */
+  width: 100%;
+}
+
+.SelectedItem {
+  width: 50%;
+  height: fit-content;
+  padding-bottom: 30px;
+  margin: 1%;
+  /* background-color: blue; */
+  border-color: seagreen;
+  border-style: solid;
+  background-color: seagreen;
+  border-radius: 15px;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 92%;
+  height: auto;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.JobTitleInfoBox{
+    padding: 10px;
+    font-weight: bold;
+    /* background-color: aqua; */
+    font-size: 18px;
+    text-align: left;
+}
+.LineBreak {
+          background-color:seagreen;
+        height: 4.5;
+         
+}
+.Applyingbutton{
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: seagreen;
+    justify-content: center;
+}
+.ApplyButton{
+    padding: 20px;
+    text-align: center;
+}
+
+.Description{
+    font-size:medium;
+    font-weight: lighter;
+}
+
+.UploadCoverLetter{
+  display: flex;
+  flex-direction:row;
+}
+
+.CoverLetter{
+  padding-left: 10px;
+}
+
+#confirm-apply{
+  display: none;
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 1146px) {
+  .ScrollBarConainer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+
+    /* background-color: black; */
+  }
+
+  .ScrollBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    margin: 1%;
+    border-radius: 15px;
+    border-color: seagreen;
+    border-style: solid;
+    overflow: scroll;
+    justify-content: space-between;
+  }
+
+  .SelectedItem {
+    width: 100%;
+    height: 80%;
+    margin: 1%;
+    /* background-color: blue; */
+    border-color: seagreen;
+    border-style: solid;
+    background-color: seagreen;
+    border-radius: 15px;
+  }
+}

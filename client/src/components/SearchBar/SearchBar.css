@@ -1,0 +1,66 @@
+.container2{
+
+  /* margin: 0px; */
+
+}
+
+.SearchBar {
+  text-align: center;
+  /* position: relative; */
+}
+
+
+.SearchBar-logo {
+  /* height: 40vmin; */
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .SearchBar-logo {
+    animation: SearchBar-logo-spin infinite 20s linear;
+  }
+}
+
+.SearchBar-header {
+  background-color: white;
+  top: 90px;
+  height: 140px;
+  /* min-height: 40%; */
+  position: sticky;
+
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search-input-box {
+  border-radius: 25px;
+  width: 400px;
+  height: 40px;
+  border-color: seagreen;
+  border-style: solid;
+  position: sticky;
+}
+
+.SearchBar-link {
+  color: #61dafb;
+}
+.company {
+  color: white;
+  background-color: seagreen;
+  font-size: medium;
+  text-align: left;
+  padding: 5px;
+}
+
+@keyframes SearchBar-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

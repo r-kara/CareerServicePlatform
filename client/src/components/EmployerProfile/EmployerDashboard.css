@@ -1,0 +1,159 @@
+:root {
+    --green: #163f1b;
+    --white: #fdfcfc;
+    --beige: rgb(255, 247, 226);
+}
+
+.emp-dashboard {
+    width: 100%;
+}
+
+.emp-dashboard h3 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.add-posting-form {
+    width: 85%;
+    padding-bottom: 12px;
+}
+
+.add-posting-section {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.add-posting-section Form.Label {
+    color: black;
+    margin-right: 10px;
+}
+
+.add-posting-section input {
+    height: 20px;
+    width: 70%;
+    margin-left: 66px;
+    padding-left: 5px;
+    border: 0.1rem solid var(--green);
+    border-radius: 8px;
+}
+
+.add-posting-section textarea {
+    height: 50px;
+    width: 70%;
+    margin-left: 15px;
+    padding-left: 5px;
+    border: 0.1rem solid var(--green);
+    border-radius: 8px;
+}
+
+.add-posting-form button {
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-top: 6px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.postings-table {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0.1rem solid var(--green);
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.postings-table-head th {
+    font-size: 1.2rem;
+}
+
+.postings-table-body td {
+    text-align: center;
+}
+
+.postings-table button {
+    width: 280px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.table-danger {
+    background-color: #f8d7da;
+}
+
+.table-danger td,
+.table-danger th {
+    color: #721c24;
+}
+
+.table-success {
+    background-color: #d4edda;
+}
+
+.table-success td,
+.table-success th {
+    color: #155724;
+}
+
+#my-applicatants-title {
+    margin-top: 40px;
+}
+
+Form label {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+Form select {
+    width: 200px;
+    border: 0.1rem solid var(--green);
+}
+
+.applicants-table-display {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0.1rem solid var(--green);
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.applicants-table-head th {
+    font-size: 1.2rem;
+    width: 20%;
+}
+
+#applicants-table-body td {
+    text-align: center;
+}
+
+.applicants-table-display button {
+    width: 120px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+:root {
+  --green: #163f1b;
+  --white: #fdfcfc;
+  --beige: rgb(255, 247, 226);
+}
+
+.login-form {
+  top: 25px;
+  position: relative;
+  padding-left: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6), 0 8px 8px 0 rgba(0, 0, 0, 0.24);
+  background-image: linear-gradient(45deg, rgb(109, 180, 86), #7fcd87);
+  height: 270px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 500px;
+}
+
+.login-form h3 {
+  font-size: 1.8rem;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  color: black;
+}
+
+.mb-3 {
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.mb-3 label {
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+.mb-3 input {
+  height: 20px;
+  margin-left: 15px;
+  padding-left: 5px;
+  border: var(--green);
+  border-radius: 8px;
+}
+
+.d-grid button {
+  width: 130px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+p .signup-link {
+  font-size: 1rem;
+}

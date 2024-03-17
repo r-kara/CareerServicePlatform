@@ -1,0 +1,25 @@
+.JobsPageContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+  /* border-color: black; */
+  border-style: solid;
+  /* background-color: aqua; */
+}
+
+.JobsContent {
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+.searchBarContainer {
+  height: 180px;
+  background-color: white;
+}
+
+.SrollBarContainer {
+  background-color: white;
+}

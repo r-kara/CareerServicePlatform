@@ -1,0 +1,110 @@
+:root {
+  --green: #163f1b;
+  --white: #fdfcfc;
+  --beige: rgb(255, 247, 226);
+}
+
+.footer-top-container {
+  background-color: var(--green);
+  justify-content: center;
+  position: sticky;
+  top: 100%;
+  width: 100%;
+  position: flex;
+  /* bottom: 0; */
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 40px;
+  /* padding-bottom: 20px; */
+  height: 150px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15%;
+}
+
+.Home-Job-Employer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.About-Terms-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+a {
+  padding-bottom: 7px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.subscribe-input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-left: 0.5rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.4rem;
+  height: 19px;
+  width: 300px;
+}
+
+legend {
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.subscribe-container button {
+  margin-left: 0.8rem;
+  padding: 0.2rem;
+  padding-top: 0.3rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.4rem;
+  background-color: rgb(231, 250, 211);
+  font-size: 11px;
+}
+
+@media screen and (max-width: 537px) {
+  a {
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .subscribe-input {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 17px;
+    width: 300px;
+  }
+
+  .footer-top-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 35px;
+    padding-bottom: 10px;
+
+    width: 100%;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+}

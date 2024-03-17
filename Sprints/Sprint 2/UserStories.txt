@@ -1,0 +1,41 @@
+
+Main user stories for this sprint:
+    User Story 1: As a student, I would like to Create and Manage my student profile so that Employers can view my profile. (PARTIAL)
+    User Story 2: As an employer, I would like to Add and Manage postings so that applicants can view the job postings. (COMPLETED)
+
+Story Points System: 1 (easy) to 10 (hard)
+
+User Story 1 -- 7
+    - Create a database for the students' account
+    - Create a page for signing up (on the website)
+    - Create a sign up form with the needed information (full name, email, phone, password, resume)
+    - Create a page for log in
+    - Modify student profile information 
+    - Differentiating a user session vs a employer session
+    - Create button for user to upload resume from local storage
+    - Set up the routes between the login and signup pages
+    - Create authentication check in client side
+    
+We came to the concensus of attributing 7 points to the user story 1 because most of us have never used MERN stack before
+and so the difficulty of the learning curve is added to the difficulty of the implementation of the user story 1. The most complex 
+task is to create the authentification barrier in order to block non-authenticated users from viewing postings. 
+    
+User Story 2 -- 8
+    - Create a database for the job postings
+    - Create button to delete job posting
+    - Create button to add job posting
+    - Create button to modify job postings
+    - Create page to browse job posting
+    - Create a search bar for job postings
+    
+We came to the concensus of attributing 8 points to the user story 2 because most of us have never used MERN stack before
+and so the difficulty of the learning curve is added to the difficulty of the implementation of the user story 2. This user
+story is 1 point higher because implementing the back-end is in harder due to its abstract nature (such as debugging, not visible 
+like front-end would). This user story was more complex to implement than user story 1 because of the multiple links with the database.
+
+
+Sprint 3 - Implement Sprint 3
+For sprint 3, we need to finish the missing task for user story 1. We plan to add a new feature such as a mailing list and a filter for the search bar.
+We will also work on the lasts core features such as users applying to job postings and get informed by the employer subsequently. In sprint 2, there is a bug
+where a regular user can create/modify/delete job postings. This will be fixed in Sprint 3, where we will implement a user authentication to determine their user type (regular user vs employer)
+

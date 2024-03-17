@@ -1,0 +1,164 @@
+:root {
+  --green: #163f1b;
+  --white: #fdfcfc;
+  --beige: rgb(255, 247, 226);
+}
+
+.profile-container {
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.profile-header {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.user-profile {
+  display: flex;
+}
+
+.info-pic {
+  margin: 5px;
+  margin-right: 10px;
+  width: 15%;
+  text-align: center;
+}
+
+.info-pic p{
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#user-pic-display {
+  width: 150px;
+  height: 170px;
+  margin-bottom: 10px;
+  border: 0.1rem solid black;
+}
+
+.info-pic label {
+  width: 140px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.info-section {
+  margin-left: 30px;
+  width: 70%;
+}
+
+form h3 {
+  font-size: 1.8rem;
+}
+
+.user-info {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.info-item {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.info-item label {
+  color: black;
+  margin-right: 10px;
+}
+
+.info-item input {
+  height: 20px;
+  width: 60%;
+  margin-left: 15px;
+  padding-left: 5px;
+  border: 0.1rem solid var(--green);
+  border-radius: 8px;
+}
+
+.info-item-btn {
+  margin-bottom: 15px;
+}
+
+.info-item-btn label {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 10px;
+}
+
+.current-resume-link{
+  margin-bottom: 45px;
+}
+
+.update-info-btn button {
+  width: 280px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.my-applications-section h3 {
+  margin-top: 30px;
+}
+
+.my-applications-section {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0.1rem solid var(--green);
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+
+.applications-table-head th {
+  font-size: 1.2rem;
+  width: 20%;
+  padding-bottom: 1rem;
+}
+
+#applications-table-body td {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.my-applications-section button {
+  width: 120px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.logout-btn button {
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+}

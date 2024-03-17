@@ -1,0 +1,165 @@
+.admin-container {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow-y: scroll;
+}
+
+.admin-header {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.admin-log {
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    width: 40%;
+    padding: 1rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.6), 0 8px 8px 0 rgba(0, 0, 0, 0.24);
+    background-image: linear-gradient(45deg, rgb(109, 180, 86), #7fcd87);
+    text-align: center;
+}
+
+.admin-log-line {
+    margin-top: 10px;
+}
+
+.admin-log label {
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.admin-log input {
+    height: 20px;
+    margin-left: 15px;
+    padding-left: 5px;
+    border: var(--green);
+    border-radius: 8px;
+}
+
+.admin-log button {
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.admin-profile {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.admin-profile h1 {
+    margin-bottom: 20px;
+}
+
+.admin-profile-field {
+    margin-bottom: 10px;
+}
+
+.admin-profile label {
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.admin-profile input {
+    height: 20px;
+    width: 30%;
+    margin-left: 15px;
+    padding-left: 5px;
+    border: 0.1rem solid var(--green);
+    border-radius: 8px;
+}
+
+.admin-profile button {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.db-section {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.db-section h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.table-main {
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0.1rem solid var(--green);
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.table-sections th {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.table-body td {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.table-body input {
+    border: 0.05rem solid var(--green);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.table-body textarea {
+    width: 250px;
+    height: 70px;
+    border: 0.05rem solid var(--green);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.table-body button {
+    width: 190px;
+    height: 30px;
+    padding-top: 7px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-update-btn button{
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 18px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
